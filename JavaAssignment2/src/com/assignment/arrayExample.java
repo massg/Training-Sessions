@@ -12,8 +12,8 @@ public class arrayExample {
 			System.out.println("Caught exception. Message: "+e.getMessage());
 		}
 		finally {
-			System.out.println("Setting i to -1");
-			i = -1;
+			i = ar.length-1;
+			System.out.println("Setting i to "+i);
 		}
 	}
 }
